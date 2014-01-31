@@ -1,0 +1,38 @@
+header {
+	background-color: #AE4240;
+	margin-bottom: 3em;
+}
+
+h1 {
+	margin: 0;
+	font-size: 5em;
+}
+
+body {
+	background-color: #EEAE4D;
+}
+
+
+.container {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.calendar {
+	border: 3px solid #5D60AD;
+}
+
+.day {
+	border-top: 1px solid #5D60AD;
+}
+
+
+ol {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
