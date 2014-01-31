@@ -20,17 +20,26 @@
 		
 
 		<div class="new-day">
-			<h2 class="date">Today	</h2>
+			<h2 class="date" id="date-header">Today	</h2>
 			<ol class="event-container">
 					<ol class="new-event">
-						<li class="time">0800</li>
-						<li class="event">Start</li>
+						<li class="time">08:00</li>
+						<li class="event">Wake Up</li>
+						<li class="delete">
+							<button type="button" class="button" id="delete">Delete Event
+							</button>
+						</li>
 					</ol>
-					<ol class="new-event">
-						<li class="time">0900</li>
-						<li class="event">Breakfast</li>
-					</ol>
+					<button type="button" class="button add-event" id="show-form">Add Event</button>
 			</ol>
+
+			<div class="submit-form" id="submit-form">
+				<form id="input-form">
+					<input type="text" name="time" id="timebox" placeholder="Time">
+					<input type="text" name="event" id="eventbox" placeholder="Event">
+					<input type="submit" class="button" id="add-event" value="Add Event">
+				</form>
+			</div>
 		</div>
 
 		

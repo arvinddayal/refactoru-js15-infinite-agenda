@@ -40,3 +40,25 @@ li {
 .event-container {
 	display: none;
 }
+
+.delete {
+	float: right;
+}
+.button {
+	background-color: #AE4240;
+	border-radius: 30px;
+}
+
+.create {
+	margin-bottom: .5em;
+}
+
+.submit-form {
+	display: none;
+}
+
+.add-event {
+	margin-top: 1em;
+	margin-right: 41%;
+	margin-left: 41%;
+}
