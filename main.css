@@ -41,8 +41,23 @@ li {
 	display: none;
 }
 
+.new-event {
+	padding-left: 0;
+	margin-bottom: .7em;
+}
+
+.event {
+	margin-left: 5px;
+}
+
+.time {
+	float: left;
+}
+
+
 .delete {
 	float: right;
+	clear: right;
 }
 .button {
 	background-color: #AE4240;

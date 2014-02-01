@@ -20,11 +20,11 @@ $(function() {
 		var newTime = $('<li class="time">');
 		var newEvent = $('<li class="event">');
 		var newDelete = $('<li class="delete">');
-		var newDeleteButton = $('<button type="button" class="button" id="delete">Delete Event</>');
+		var newDeleteButton = $('<button type="button" class="button delete" id="delete">Delete Event</>');
 		var newDeleteLi = newDelete.append(newDeleteButton);
 		var newEventOl = $('<ol class="new-event">').append(newTime).append(newEvent).append(newDeleteLi);
-		$('.time').text(newTimeInput);
-		$('.event').text(newEventInput);
+		$(newTime).text(newTimeInput);
+		$(newEvent).text(newEventInput);
 		return newEventOl;
 	};
 
@@ -48,7 +48,7 @@ $(function() {
 		$(this).parent().next('.submit-form').toggle('display');
 	});
 
-	//Add event creates new event from form, clears form, hides form
+	//Creates new event from form, clears form, hides form
 	$(document).on('click', '#add-event', function(e) {
 		e.preventDefault();
 		$(this).parent().parent().prev().prepend(newEvent);
